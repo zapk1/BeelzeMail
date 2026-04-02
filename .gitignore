@@ -1,1 +1,4 @@
-
+EMAIL_HOST=mail.beelzeapps.co.za
+EMAIL_PORT=465
+EMAIL_USER=info@home45.co.za
+EMAIL_PASS=YourSecretPassword here
