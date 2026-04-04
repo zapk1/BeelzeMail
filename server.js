@@ -1,3 +1,5 @@
+require('http').createServer((req, res) => res.end('BeelzeMail is Active')).listen(process.env.PORT || 10000);
+
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 require('dotenv').config();
