@@ -25,7 +25,7 @@ async function sendMassEmails() {
 
     for (let i = 0; i < targets.length; i++) {
         let mailOptions = {
-            from: `"Mafia Architect" <${process.env.EMAIL_USER}>`,
+            from: `"Dark Master Store" <${process.env.EMAIL_USER}>`,
             to: targets[i],
             subject: 'The 2026 Calculation: Your Professional Edge',
             html: messageHtml,
