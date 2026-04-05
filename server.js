@@ -42,7 +42,7 @@ async function sendMassEmails() {
             await transporter.sendMail(mailOptions);
             console.log(`✅ [${i + 1}/${targets.length}] Delivered to: ${targets[i]}`);
         } catch (error) {
-            console.log(`❌ [${i + 1}/${targets.length}] Failed: ${targets[i]}`);
+            console.log(`❌ [${i + 1}/${targets.length}] Failed: ${targets[i]} — ${error.message}`);
         }
 
         // THE "SAFE ZONE" DELAY (120 seconds)
